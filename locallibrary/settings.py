@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '(m^f0_+x4cqs79an-i+fu_1uo=1c-+
 #DEBUG = True
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['thawing-savannah-50184.herokuapp.com','127.0.0.1']
 
 
 # Application definition
